@@ -1,4 +1,4 @@
-package br.edu.ifal.leilao;
+package br.edu.ifal.leilao.modelo;
 
 public class Produto {
 
@@ -16,6 +16,14 @@ public class Produto {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
 }

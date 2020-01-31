@@ -1,14 +1,14 @@
-package br.edu.ifal.leilao;
+package br.edu.ifal.leilao.modelo;
 
 public class Lance {
 
 	private Cliente cliente;
-	private double ValorDoLance;
+	private double valorDoLance;
 
 	public Lance(Cliente cliente, double valorDoLance) {
 		super();
 		this.cliente = cliente;
-		ValorDoLance = valorDoLance;
+		this.valorDoLance = valorDoLance;
 	}
 
 	public Cliente getCliente() {
@@ -20,11 +20,11 @@ public class Lance {
 	}
 
 	public double getValorDoLance() {
-		return ValorDoLance;
+		return this.valorDoLance;
 	}
 
 	public void setValorDoLance(double valorDoLance) {
-		ValorDoLance = valorDoLance;
+		this.valorDoLance = valorDoLance;
 	}
 
 }

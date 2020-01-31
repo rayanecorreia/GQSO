@@ -1,4 +1,4 @@
-package br.edu.ifal.leilao;
+package br.edu.ifal.leilao.modelo;
 
 public class Cliente {
 
@@ -7,9 +7,10 @@ public class Cliente {
 	private String cpf;
 	
 	
-	public Cliente(String nome) {
+	public Cliente(String nome, String cpf) {
 		super();
 		this.nome = nome;
+		this.cpf = cpf;
 	}
 
 
